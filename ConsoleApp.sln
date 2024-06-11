@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arcade-Odyssey", "Arcade-Odyssey", "{9A941FF5-8AF3-4EF3-BCE0-03910CF26F74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back", "Back", "{B0DACA86-4636-4BFB-82A1-C628597A8397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "Arcade-Odyssey\Back\ConsoleApp\ConsoleApp.csproj", "{6610DA22-F5E4-430B-9F6C-2BBCDA688E6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6610DA22-F5E4-430B-9F6C-2BBCDA688E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6610DA22-F5E4-430B-9F6C-2BBCDA688E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6610DA22-F5E4-430B-9F6C-2BBCDA688E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6610DA22-F5E4-430B-9F6C-2BBCDA688E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0DACA86-4636-4BFB-82A1-C628597A8397} = {9A941FF5-8AF3-4EF3-BCE0-03910CF26F74}
+		{6610DA22-F5E4-430B-9F6C-2BBCDA688E6D} = {B0DACA86-4636-4BFB-82A1-C628597A8397}
+	EndGlobalSection
+EndGlobal
