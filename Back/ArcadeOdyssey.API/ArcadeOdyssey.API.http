@@ -1,0 +1,6 @@
+@ArcadeOdyssey.API_HostAddress = http://localhost:5036
+
+GET {{ArcadeOdyssey.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
